@@ -1,0 +1,112 @@
+Mrxvt.autohideTabbar:            true
+ Mrxvt.profile0.tabTitle:        term
+# Mrxvt.profile1.tabTitle:        term2
+# Mrxvt.profile2.tabTitle:        term3
+Mrxvt.profile0.saveLines:       1000
+Mrxvt.profile1.saveLines:       1000
+Mrxvt.profile2.saveLines:       1000
+Mrxvt.scrollbarStyle:           next
+
+Mrxvt.transparent:              False
+Mrxvt.transparentForce:         True
+Mrxvt.transparentScrollbar:     True
+Mrxvt.transparentTabbar:        True
+Mrxvt.transparentMenubar:       True
+Mrxvt.scrollbarRight:           False
+Mrxvt.bottomTabbar:             True
+Mrxvt.scrollbarThickness:       12
+
+Mrxvt.font:                     6x13
+# Mrxvt.tintColor:                #808080
+#Mrxvt.shading:                  85
+#Mrxvt.fading:                   20
+Mrxvt.focusDelay:               200
+Mrxvt.foreground:               #657b83
+Mrxvt.background:               #002b36
+#Mrxvt.background:               grey13
+Mrxvt.tabBackground:            #002b36
+Mrxvt.tabForeground:            grey86
+Mrxvt.itabBackground:           grey20
+Mrxvt.itabForeground:           grey60
+
+# Mrxvt.foreground:               white
+# Mrxvt.background:               grey13
+
+Mrxvt.syncTabTitle:		True
+Mrxvt.minVisibleTabs:		16
+Mrxvt.hideButtons:		True
+Mrxvt.termName:		        rxvt
+
+# Mrxvt.internalBorder:           2
+
+# Keybindings
+Mrxvt.macro.Ctrl+N:	NewTab -1
+# Mrxvt.macro.Super+A:	NewTab -1
+Mrxvt.macro.Ctrl+Shift+Left:		GotoTab -1
+Mrxvt.macro.Ctrl+Shift+Right:		GotoTab +1
+Mrxvt.macro.Ctrl+Shift+D:		ToggleBroadcast
+
+# reset colors to be more pleasing
+# fluxbox dude
+#Mrxvt*color0: #000000
+#Mrxvt*color1: #b21818
+#Mrxvt*color2: #18b218
+#Mrxvt*color3: rgb:c/c/0
+#Mrxvt*color4: rgb:2/2/e
+#Mrxvt*color5: #b218b2
+#Mrxvt*color6: #18b2b2
+#Mrxvt*color7: #b2b2b2
+#Mrxvt*color8: #686868
+#Mrxvt*color9: #FF5454
+#Mrxvt*color10: #54FF54
+#Mrxvt*color11: #FFFF54
+#Mrxvt*color12: #73A5FF
+#Mrxvt*color13: #FF54FF
+#Mrxvt*color14: #54FFFF
+#Mrxvt*color15: #FFFFFF
+
+Mrxvt*color0:  #073642
+Mrxvt*color1:  #dc322f
+Mrxvt*color2:  #859900
+Mrxvt*color3:  #b58900
+Mrxvt*color4:  #268bd2
+Mrxvt*color5:  #d33682
+Mrxvt*color6:  #2aa198
+Mrxvt*color7:  #eee8d5
+Mrxvt*color8:  #002b36
+#Mrxvt*color8:  grey13
+Mrxvt*color9:  #cb4b16
+Mrxvt*color10: #586e75
+Mrxvt*color11: #657b83
+Mrxvt*color12: #839496
+Mrxvt*color13: #6c71c4
+Mrxvt*color14: #93a1a1
+Mrxvt*color15: #fdf6e3
+
+####  Added by post
+Mrxvt.xft: 1
+#Mrxvt.xftFont: Bitstream Vera Sans Mono
+Mrxvt.xftFont: DejaVu LGC Sans Mono
+Mrxvt.xftSize: 10
+#Mrxvt.xftSlant: roman
+#Mrxvt.xftWidth: ultracondensed
+#Mrxvt.xftWeight: light
+Mrxvt.xftAntialias: 1
+# The options below are better set using ~/.fonts.config. Mrxvt will use the
+# defaults passed to the fontconfig library.
+#
+Mrxvt.xftHinting: 1
+Mrxvt.xftAutoHint: 1
+Mrxvt.xftGlobalAdvance: 1
+# Mrxvt.xftRGBA: rgb
+# Mrxvt.xftslow: 1
+# Don't load a multi-char font. This will reduce the line space if your multi
+# char font has different dimensions than the regular font. You might need to
+# comment it out if you want to use XIM and non-english fonts.
+Mrxvt.xftNomFont: 1
+# Font to use for tab bar / menus. This need not be mono-spaced ;) .
+Mrxvt.xftPFont: Bitstream Vera Sans
+Mrxvt.xftPSize: 10
+# Shadow text
+# Mrxvt.textShadow: red
+# Mrxvt.textShadowMode: botright
