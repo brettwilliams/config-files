@@ -1,4 +1,5 @@
 Mrxvt.autohideTabbar:            true
+Mrxvt.showMenu:                  False
  Mrxvt.profile0.tabTitle:        term
 # Mrxvt.profile1.tabTitle:        term2
 # Mrxvt.profile2.tabTitle:        term3
@@ -84,13 +85,12 @@ Mrxvt*color14: #93a1a1
 Mrxvt*color15: #fdf6e3
 
 ####  Added by post
-#Mrxvt.xft: 1
-#Mrxvt.xftFont: Bitstream Vera Sans Mono
-#Mrxvt.xftFont: DejaVu LGC Sans Mono
-#Mrxvt.xftSize: 10
-#Mrxvt.xftSlant: roman
-#Mrxvt.xftWidth: ultracondensed
-#Mrxvt.xftWeight: light
+Mrxvt.xft: 1
+Mrxvt.xftFont: Bitstream Vera Sans Mono
+Mrxvt.xftSize: 10
+Mrxvt.xftSlant: roman
+Mrxvt.xftWidth: ultracondensed
+Mrxvt.xftWeight: light
 Mrxvt.xftAntialias: 1
 # The options below are better set using ~/.fonts.config. Mrxvt will use the
 # defaults passed to the fontconfig library.
