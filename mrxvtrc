@@ -1,6 +1,6 @@
-Mrxvt.autohideTabbar:            true
-Mrxvt.showMenu:                  False
- Mrxvt.profile0.tabTitle:        term
+Mrxvt.autohideTabbar:           true
+Mrxvt.showMenu:                 False
+Mrxvt.profile0.tabTitle:        mrxvt
 # Mrxvt.profile1.tabTitle:        term2
 # Mrxvt.profile2.tabTitle:        term3
 Mrxvt.profile0.saveLines:       1000
@@ -75,7 +75,6 @@ Mrxvt*color5:  #d33682
 Mrxvt*color6:  #2aa198
 Mrxvt*color7:  #eee8d5
 Mrxvt*color8:  #002b36
-#Mrxvt*color8:  grey13
 Mrxvt*color9:  #cb4b16
 Mrxvt*color10: #586e75
 Mrxvt*color11: #657b83
@@ -87,7 +86,7 @@ Mrxvt*color15: #fdf6e3
 ####  Added by post
 Mrxvt.xft: 1
 Mrxvt.xftFont: Bitstream Vera Sans Mono
-Mrxvt.xftSize: 10
+Mrxvt.xftSize: 11
 Mrxvt.xftSlant: roman
 Mrxvt.xftWidth: ultracondensed
 Mrxvt.xftWeight: light
