@@ -22,10 +22,11 @@ Mrxvt.font:                     6x13
 #Mrxvt.shading:                  85
 #Mrxvt.fading:                   20
 Mrxvt.focusDelay:               200
-Mrxvt.foreground:               #657b83
-Mrxvt.background:               #002b36
-#Mrxvt.background:               grey13
+Mrxvt.foreground:               grey80
+#Mrxvt.background:               #002b36
+Mrxvt.background:               grey10
 Mrxvt.tabBackground:            #002b36
+Mrxvt.tabBackground:            grey10
 Mrxvt.tabForeground:            grey86
 Mrxvt.itabBackground:           grey20
 Mrxvt.itabForeground:           grey60

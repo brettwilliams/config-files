@@ -52,13 +52,13 @@ vnc*wmDecorationHeight: 0
 #define S_cyan          #2aa198
 #define S_green         #859900
 
-!*background:            S_base03
-!*foreground:            S_base00
-!*fading:                40
-!*fadeColor:             S_base03
-!*cursorColor:           S_base1
-!*pointerColorBackground:S_base01
-!*pointerColorForeground:S_base1
+xterm*background:            S_base03
+xterm*foreground:            S_base00
+xterm*fading:                40
+xterm*fadeColor:             S_base03
+xterm*cursorColor:           S_base1
+xterm*pointerColorBackground:S_base01
+xterm*pointerColorForeground:S_base1
 
 !! black dark/light
 *color0:                S_base02
