@@ -87,7 +87,7 @@ Mrxvt*color15: #fdf6e3
 ####  Added by post
 Mrxvt.xft: 1
 Mrxvt.xftFont: Bitstream Vera Sans Mono
-Mrxvt.xftSize: 11
+Mrxvt.xftSize: 10
 Mrxvt.xftSlant: roman
 Mrxvt.xftWidth: ultracondensed
 Mrxvt.xftWeight: light
