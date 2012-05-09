@@ -20,7 +20,8 @@ main = do
        { ppOutput = hPutStrLn xmproc
        , ppTitle = xmobarColor "green" "" . shorten 50
        }
-    , keys = myKeys <+> keys defaultConfig
+--    , keys = myKeys <+> keys defaultConfig
+    , keys = newKeys
     }
       
 myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList
@@ -36,3 +37,4 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList
   -- @@ Close the focused window (not delete if on other ws)
   , ((modm .|. shiftMask, xK_c     ), kill1) 
   ]
+newKeys x = myKeys x `M.union` keys defaultConfig x
