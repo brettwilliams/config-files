@@ -13,7 +13,7 @@ Mrxvt.transparentForce:         True
 Mrxvt.transparentScrollbar:     True
 Mrxvt.transparentTabbar:        True
 Mrxvt.transparentMenubar:       True
-Mrxvt.scrollbarRight:           False
+Mrxvt.scrollbarRight:           True
 Mrxvt.bottomTabbar:             True
 Mrxvt.scrollbarThickness:       12
 
