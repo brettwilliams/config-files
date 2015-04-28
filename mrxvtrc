@@ -67,22 +67,22 @@ Mrxvt.macro.Ctrl+Shift+D:		ToggleBroadcast
 #Mrxvt*color14: #54FFFF
 #Mrxvt*color15: #FFFFFF
 
-Mrxvt*color0:  #073642
-Mrxvt*color1:  #dc322f
-Mrxvt*color2:  #859900
-Mrxvt*color3:  #b58900
-Mrxvt*color4:  #268bd2
-Mrxvt*color5:  #d33682
-Mrxvt*color6:  #2aa198
-Mrxvt*color7:  #eee8d5
-Mrxvt*color8:  #002b36
-Mrxvt*color9:  #cb4b16
-Mrxvt*color10: #586e75
-Mrxvt*color11: #657b83
-Mrxvt*color12: #839496
-Mrxvt*color13: #6c71c4
-Mrxvt*color14: #93a1a1
-Mrxvt*color15: #fdf6e3
+# Mrxvt*color0:  #073642
+# Mrxvt*color1:  #dc322f
+# Mrxvt*color2:  #859900
+# Mrxvt*color3:  #b58900
+# Mrxvt*color4:  #268bd2
+# Mrxvt*color5:  #d33682
+# Mrxvt*color6:  #2aa198
+# Mrxvt*color7:  #eee8d5
+# Mrxvt*color8:  #002b36
+# Mrxvt*color9:  #cb4b16
+# Mrxvt*color10: #586e75
+# Mrxvt*color11: #657b83
+# Mrxvt*color12: #839496
+# Mrxvt*color13: #6c71c4
+# Mrxvt*color14: #93a1a1
+# Mrxvt*color15: #fdf6e3
 
 ####  Added by post
 Mrxvt.xft: 1
